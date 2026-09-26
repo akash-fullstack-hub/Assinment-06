@@ -33,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {/* this is my navbar */}
           <Navbar />
           {children}
+          {/* this is my toastcontainer */}
               <ToastContainer />
 
               {/* this is my footer */}
