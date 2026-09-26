@@ -37,6 +37,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
               {/* this is my footer */}
           <Footer />
+
+          {/* this is my cardcontext */}
         </Cardcontext>
       </body>
     </html>
