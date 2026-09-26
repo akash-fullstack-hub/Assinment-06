@@ -25,16 +25,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={${geistSans.variable} ${geistMono.variable} h-full antialiased}
     >
       <body className="min-h-full flex flex-col bg-[#0C0D10]">
         <Cardcontext>
-
+          {/* Navbar  */}
           <Navbar />
+          {/* the children for home page */}
           {children}
-          
-              <ToastContainer />
+          {/* for showing toastify  */}
+          <ToastContainer />
+          {/* this is my footer  */}
           <Footer />
+          {/* this is for card functionality  */}
         </Cardcontext>
       </body>
     </html>
