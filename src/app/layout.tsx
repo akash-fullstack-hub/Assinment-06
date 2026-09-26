@@ -34,6 +34,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Navbar />
           {children}
               <ToastContainer />
+
+              {/* this is my footer */}
           <Footer />
         </Cardcontext>
       </body>
