@@ -30,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-[#0C0D10]">
         <Cardcontext>
 
-          {/* this is my navbar */}
+          
           <Navbar />
           {children}
           
