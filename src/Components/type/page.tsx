@@ -13,5 +13,3 @@ export interface AType {
   description: string;
   instructions: string[];
 }
-
-// this is my type//

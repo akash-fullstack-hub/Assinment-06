@@ -1,3 +1,4 @@
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,7 +43,7 @@ const workoutsPage = async () => {
             {workouts.map((workout) => (
               <Link
                 key={workout.id}
-                href={/workouts/${workout.id}}
+                href={`/workouts/${workout.id}`}
                 className="block overflow-hidden rounded-lg bg-[#16181D] transition duration-200 hover:scale-[1.02]"
               >
 
@@ -111,3 +112,4 @@ const workoutsPage = async () => {
 };
 
 export default workoutsPage;
+
