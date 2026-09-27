@@ -2,8 +2,7 @@ np# FITLOG — Workout Library
 
 FITLOG is a responsive workout library web application built with **Next.js, React, TypeScript, and Tailwind CSS**. Users can explore different exercises, view detailed workout information, add exercises to their daily plan, and save workouts for later.
 
-## 🚀 Live Project: https://fitlog1-tan.vercel.app/
-
+## 🚀 Live Project: https://grand-hotteok-170318.netlify.app/
 
 ## 📌 Project Description
 
